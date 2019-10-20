@@ -1,0 +1,134 @@
+{
+	"version" : "1.1",
+	"vgroups" : [
+		{
+			"vgroup_name" : "Cloudsites",
+			"vgroup_type" : "CONNECTION",
+			"items" : [
+				{
+					"name" : "2015447_datamart@govfish.org",
+					"type" : "CONNECTION",
+					"server_type" : "MARIADB"
+				},
+				{
+					"name" : "2015447_forms_v11@govfish.org",
+					"type" : "CONNECTION",
+					"server_type" : "MARIADB"
+				},
+				{
+					"name" : "2015447_master_data@govfish.org",
+					"type" : "CONNECTION",
+					"server_type" : "MARIADB"
+				},
+				{
+					"name" : "2015447_dashboard_legacy@govfish.org",
+					"type" : "CONNECTION",
+					"server_type" : "MARIADB"
+				},
+				{
+					"name" : "2015447_formidable@govfish.org",
+					"type" : "CONNECTION",
+					"server_type" : "MARIADB"
+				},
+				{
+					"name" : "2015447_forms@govfish.org",
+					"type" : "CONNECTION",
+					"server_type" : "MARIADB"
+				},
+				{
+					"name" : "2015447_forms_legacy@govfish.org",
+					"type" : "CONNECTION",
+					"server_type" : "MARIADB"
+				},
+				{
+					"name" : "2015447_forms_national@govfish.org",
+					"type" : "CONNECTION",
+					"server_type" : "MARIADB"
+				},
+				{
+					"name" : "2015447_tco@govfish.org",
+					"type" : "CONNECTION",
+					"server_type" : "MARIADB"
+				},
+				{
+					"name" : "2015447_datamart",
+					"type" : "CONNECTION",
+					"server_type" : "MARIADB"
+				},
+				{
+					"name" : "2015447_forms_national@govfish.org-2",
+					"type" : "CONNECTION",
+					"server_type" : "MARIADB"
+				}
+			]
+		},
+		{
+			"vgroup_name" : "FFA",
+			"vgroup_type" : "CONNECTION",
+			"items" : [
+				{
+					"name" : "10.1.1.106",
+					"type" : "CONNECTION",
+					"server_type" : "PGSQL"
+				},
+				{
+					"name" : "10.1.1.11",
+					"type" : "CONNECTION",
+					"server_type" : "PGSQL"
+				},
+				{
+					"name" : "postgres1.prod.forumfisheries.anchor.net.au",
+					"type" : "CONNECTION",
+					"server_type" : "PGSQL"
+				},
+				{
+					"name" : "rimf.ffa.int",
+					"type" : "CONNECTION",
+					"server_type" : "PGSQL"
+				},
+				{
+					"name" : "rimfdb.ffa.int",
+					"type" : "CONNECTION",
+					"server_type" : "PGSQL"
+				}
+			]
+		},
+		{
+			"vgroup_name" : "Siteground",
+			"vgroup_type" : "CONNECTION",
+			"items" : [
+				{
+					"name" : "whupi.com",
+					"type" : "CONNECTION",
+					"server_type" : "MYSQL"
+				},
+				{
+					"name" : "govcrate.com",
+					"type" : "CONNECTION",
+					"server_type" : "MYSQL"
+				}
+			]
+		},
+		{
+			"vgroup_name" : "Turnkeyhub",
+			"vgroup_type" : "CONNECTION",
+			"items" : [
+				{
+					"name" : "form.tklapp.com",
+					"type" : "CONNECTION",
+					"server_type" : "MYSQL"
+				},
+				{
+					"name" : "licensing.tklapp.com",
+					"type" : "CONNECTION",
+					"server_type" : "MYSQL"
+				},
+				{
+					"name" : "digest.org.ck",
+					"type" : "CONNECTION",
+					"server_type" : "MYSQL"
+				}
+			]
+		}
+	]
+}
